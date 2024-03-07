@@ -1,0 +1,72 @@
+{
+    "info": {
+        "id": "559838",
+        "name": "Mr. Biryani",
+        "cloudinaryImageId": "0e1b1400790362aecea178f305cf08a1",
+        "locality": "54 Scheme",
+        "areaName": "Vijay Nagar",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "Biryani",
+            "Mughlai",
+            "North Indian"
+        ],
+        "avgRating": 3.8,
+        "parentId": "140123",
+        "avgRatingString": "3.8",
+        "totalRatingsString": "500+",
+        "sla": {
+            "deliveryTime": 40,
+            "lastMileTravel": 5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "40-45 mins",
+            "lastMileTravelString": "5.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-03-03 23:59:00",
+            "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "₹100 OFF",
+            "subHeader": "ABOVE ₹249",
+            "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+        "context": "seo-data-94521331-cc3a-416f-95b2-983ccbbb73d5"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/mr-biryani-54-scheme-vijay-nagar-indore-559838",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
