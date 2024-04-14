@@ -22,7 +22,7 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      " https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7197524&lng=75.8620193&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      "https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7197524&lng=75.8620193&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
 
