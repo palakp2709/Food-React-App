@@ -25,7 +25,7 @@ const ItemCard = ({itemData}) =>{
                         </div>
                         <div className="w-2/12 my-2">
                             <button  onClick={() => handleClick(items)}
-                                className="py-1 w-14 border border-solid border-gray text-xs bg-gray-200 rounded-sm absolute text-green-600" >
+                                className="py-1 w-8 h-6  md:w-10  lg:w-14 border border-solid border-gray text-[0.6rem] md:text-xs bg-gray-200 rounded-sm absolute text-green-600" >
                                     Add+
                             </button>
 
@@ -33,7 +33,7 @@ const ItemCard = ({itemData}) =>{
                                 items.card.info.imageId ?
                                 (
                                 
-                                <img src={CDN_URL + items.card.info.imageId } className="rounded-lg "/>
+                                <img src={CDN_URL + items.card.info.imageId } className="rounded-lg h-12"/>
                             
                                 ) : ""
 
