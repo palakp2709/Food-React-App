@@ -1,7 +1,7 @@
 import FoodList from "../../utils/mockData";
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect, useContext } from "react";
-import Shimmer from "./Shimmer";
+
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../../utils/useOnlineStatus";
 //import { withDiscountLabel } from "./RestaurantCard";
@@ -42,9 +42,7 @@ const Body = () => {
   }
 
   //CONDITIONAL RENDERING: rendering according to condition
-  return listOfFood.length === 0 ? (
-    <Shimmer />
-  ) : (
+  return  (
     <div className="h-screen w-full">
       <div className="p-4 h-28 md:h-24 bg-gradient-to-l from-teal-400 to-cyan-600 ">
         <div >
