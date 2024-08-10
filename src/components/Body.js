@@ -22,7 +22,7 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7197524&lng=75.8620193&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7197524&lng=75.8620193&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
 
@@ -42,9 +42,7 @@ const Body = () => {
   }
 
   //CONDITIONAL RENDERING: rendering according to condition
-  return listOfFood.length === 0 ? (
-    <Shimmer />
-  ) : (
+  return  (
     <div className="h-screen w-full">
       <div className="p-4 h-28 md:h-24 bg-gradient-to-l from-teal-400 to-cyan-600 ">
         <div >
